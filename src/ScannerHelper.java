@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class SannerHelper {
-
+public class ScannerHelper {
     public static String getAString(String question) {
         System.out.println(question);
         return scan().nextLine();
@@ -25,5 +24,4 @@ public class SannerHelper {
     }
 
 }
-
 
